@@ -1,5 +1,7 @@
 # CSV Sum Project - CLIENT | By: James Boushell
 
+![App Preview]('./public/preview.png')
+
 This is my submission to SRE for the coding challenge presented after my interview. This app allows a user to upload a .csv file. The .csv file is then passed to a REST API where the sums of each row are calculated and sent back to the client. Once the client recieves the counts, they are then able to select which columns they would like to total up from a graphic spreadsheet interface.
 
 I decided offer a second, more scalable, submission because in a project like this I would keep in mind the cases where larger files would need to be interpreted outside of the client, as well as cases where different analyses that might be desired.
