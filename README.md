@@ -6,6 +6,14 @@ This is my submission to SRE for the coding challenge presented after my intervi
 
 I decided offer a second, more scalable, submission because in a project like this I would keep in mind the cases where larger files would need to be interpreted outside of the client, as well as cases where different analyses that might be desired.
 
+## Instructions
+
+To get this app to work you must first make sure that you are running the Server portion which hosts the REST api that this client will be calling on http://localhost:4000.
+
+Once the server is running, navigate to this project directory and run 
+
+### `npm start`
+
 ## Available Scripts
 
 In the project directory, you can run:
