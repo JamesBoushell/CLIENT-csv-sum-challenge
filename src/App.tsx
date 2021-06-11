@@ -1,11 +1,14 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import * as Papa from 'papaparse';
 import Spreadsheet, { CellBase, Matrix } from "react-spreadsheet";
+import { Point } from 'react-spreadsheet/dist/types';
+
+// Styles
 import './App.css';
 
 // Components
 import UploadForm from './components/UploadForm';
-import { Point } from 'react-spreadsheet/dist/types';
+
 
 
 type Sums = object & {
@@ -13,8 +16,6 @@ type Sums = object & {
 }
 
 type ColumnList = Array<string>
-
-
 
 function App() {
   const [file, setFile] = useState<File | null>()
