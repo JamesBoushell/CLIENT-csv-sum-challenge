@@ -1,4 +1,4 @@
-# CSV Sum Project - CLIENT | By: James Boushell
+# CSV Sum Challenge - 2nd Submission: CLIENT | By: James Boushell
 
 ![App Preview](/public/preview.png?raw=true)
 
